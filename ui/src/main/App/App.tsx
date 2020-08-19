@@ -1,5 +1,15 @@
+import { Container } from '@material-ui/core'
 import React from 'react'
 
-const App = () => <div>app</div>
+import { MenuAppBar } from '../MenuAppBar'
+
+const App = () => (
+  <>
+    <MenuAppBar />
+    <Container>
+      app
+    </Container>
+  </>
+)
 
 export { App }
